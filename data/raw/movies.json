@@ -11,11 +11,30 @@
             "Action",
             "Science Fiction"
         ],
-        "director": "The Wachowskis",
+        "director": {
+            "id": "p1",
+            "name": "The Wachowskis",
+            "birth_year": 1965
+        },
         "actors": [
-            "Keanu Reeves",
-            "Laurence Fishburne",
-            "Carrie-Anne Moss"
+            {
+                "id": "p2",
+                "name": "Keanu Reeves",
+                "role": "Neo",
+                "order": 1
+            },
+            {
+                "id": "p3",
+                "name": "Laurence Fishburne",
+                "role": "Morpheus",
+                "order": 2
+            },
+            {
+                "id": "p4",
+                "name": "Carrie-Anne Moss",
+                "role": "Trinity",
+                "order": 3
+            }
         ],
         "keywords": [
             "artificial intelligence",
@@ -23,7 +42,13 @@
             "dystopia",
             "chosen one",
             "simulation"
-        ]
+        ],
+        "studio": {
+            "id": "s1",
+            "name": "Warner Bros",
+            "country": "USA",
+            "founded_year": 1923
+        }
     },
     {
         "id": "m2",
@@ -38,12 +63,36 @@
             "Science Fiction",
             "Thriller"
         ],
-        "director": "Christopher Nolan",
+        "director": {
+            "id": "p5",
+            "name": "Christopher Nolan",
+            "birth_year": 1970
+        },
         "actors": [
-            "Leonardo DiCaprio",
-            "Joseph Gordon-Levitt",
-            "Ellen Page",
-            "Tom Hardy"
+            {
+                "id": "p6",
+                "name": "Leonardo DiCaprio",
+                "role": "Dom Cobb",
+                "order": 1
+            },
+            {
+                "id": "p7",
+                "name": "Joseph Gordon-Levitt",
+                "role": "Arthur",
+                "order": 2
+            },
+            {
+                "id": "p8",
+                "name": "Ellen Page",
+                "role": "Ariadne",
+                "order": 3
+            },
+            {
+                "id": "p9",
+                "name": "Tom Hardy",
+                "role": "Eames",
+                "order": 4
+            }
         ],
         "keywords": [
             "dream",
@@ -51,7 +100,13 @@
             "heist",
             "reality",
             "mind bending"
-        ]
+        ],
+        "studio": {
+            "id": "s1",
+            "name": "Warner Bros",
+            "country": "USA",
+            "founded_year": 1923
+        }
     },
     {
         "id": "m3",
@@ -66,12 +121,36 @@
             "Crime",
             "Drama"
         ],
-        "director": "Christopher Nolan",
+        "director": {
+            "id": "p5",
+            "name": "Christopher Nolan",
+            "birth_year": 1970
+        },
         "actors": [
-            "Christian Bale",
-            "Heath Ledger",
-            "Aaron Eckhart",
-            "Michael Caine"
+            {
+                "id": "p10",
+                "name": "Christian Bale",
+                "role": "Bruce Wayne / Batman",
+                "order": 1
+            },
+            {
+                "id": "p11",
+                "name": "Heath Ledger",
+                "role": "Joker",
+                "order": 2
+            },
+            {
+                "id": "p12",
+                "name": "Aaron Eckhart",
+                "role": "Harvey Dent",
+                "order": 3
+            },
+            {
+                "id": "p13",
+                "name": "Michael Caine",
+                "role": "Alfred",
+                "order": 4
+            }
         ],
         "keywords": [
             "superhero",
@@ -79,7 +158,13 @@
             "chaos",
             "duality",
             "gotham"
-        ]
+        ],
+        "studio": {
+            "id": "s1",
+            "name": "Warner Bros",
+            "country": "USA",
+            "founded_year": 1923
+        }
     },
     {
         "id": "m4",
@@ -94,12 +179,36 @@
             "Drama",
             "Science Fiction"
         ],
-        "director": "Christopher Nolan",
+        "director": {
+            "id": "p5",
+            "name": "Christopher Nolan",
+            "birth_year": 1970
+        },
         "actors": [
-            "Matthew McConaughey",
-            "Anne Hathaway",
-            "Jessica Chastain",
-            "Michael Caine"
+            {
+                "id": "p14",
+                "name": "Matthew McConaughey",
+                "role": "Cooper",
+                "order": 1
+            },
+            {
+                "id": "p15",
+                "name": "Anne Hathaway",
+                "role": "Brand",
+                "order": 2
+            },
+            {
+                "id": "p16",
+                "name": "Jessica Chastain",
+                "role": "Murph",
+                "order": 3
+            },
+            {
+                "id": "p13",
+                "name": "Michael Caine",
+                "role": "Professor Brand",
+                "order": 4
+            }
         ],
         "keywords": [
             "space travel",
@@ -107,7 +216,13 @@
             "time dilation",
             "survival",
             "love"
-        ]
+        ],
+        "studio": {
+            "id": "s2",
+            "name": "Paramount Pictures",
+            "country": "USA",
+            "founded_year": 1912
+        }
     },
     {
         "id": "m5",
@@ -121,12 +236,36 @@
             "Crime",
             "Drama"
         ],
-        "director": "Quentin Tarantino",
+        "director": {
+            "id": "p17",
+            "name": "Quentin Tarantino",
+            "birth_year": 1963
+        },
         "actors": [
-            "John Travolta",
-            "Uma Thurman",
-            "Samuel L. Jackson",
-            "Bruce Willis"
+            {
+                "id": "p18",
+                "name": "John Travolta",
+                "role": "Vincent Vega",
+                "order": 1
+            },
+            {
+                "id": "p19",
+                "name": "Uma Thurman",
+                "role": "Mia Wallace",
+                "order": 2
+            },
+            {
+                "id": "p20",
+                "name": "Samuel L. Jackson",
+                "role": "Jules Winnfield",
+                "order": 3
+            },
+            {
+                "id": "p21",
+                "name": "Bruce Willis",
+                "role": "Butch Coolidge",
+                "order": 4
+            }
         ],
         "keywords": [
             "nonlinear",
@@ -134,7 +273,13 @@
             "violence",
             "redemption",
             "dialogue"
-        ]
+        ],
+        "studio": {
+            "id": "s3",
+            "name": "Miramax",
+            "country": "USA",
+            "founded_year": 1979
+        }
     },
     {
         "id": "m6",
@@ -147,10 +292,24 @@
         "genres": [
             "Drama"
         ],
-        "director": "Frank Darabont",
+        "director": {
+            "id": "p22",
+            "name": "Frank Darabont",
+            "birth_year": 1959
+        },
         "actors": [
-            "Tim Robbins",
-            "Morgan Freeman"
+            {
+                "id": "p23",
+                "name": "Tim Robbins",
+                "role": "Andy Dufresne",
+                "order": 1
+            },
+            {
+                "id": "p24",
+                "name": "Morgan Freeman",
+                "role": "Ellis Boyd 'Red' Redding",
+                "order": 2
+            }
         ],
         "keywords": [
             "prison",
@@ -158,7 +317,13 @@
             "friendship",
             "redemption",
             "escape"
-        ]
+        ],
+        "studio": {
+            "id": "s4",
+            "name": "Columbia Pictures",
+            "country": "USA",
+            "founded_year": 1924
+        }
     },
     {
         "id": "m7",
@@ -172,11 +337,30 @@
             "Drama",
             "Romance"
         ],
-        "director": "Robert Zemeckis",
+        "director": {
+            "id": "p25",
+            "name": "Robert Zemeckis",
+            "birth_year": 1952
+        },
         "actors": [
-            "Tom Hanks",
-            "Robin Wright",
-            "Gary Sinise"
+            {
+                "id": "p26",
+                "name": "Tom Hanks",
+                "role": "Forrest Gump",
+                "order": 1
+            },
+            {
+                "id": "p27",
+                "name": "Robin Wright",
+                "role": "Jenny Curran",
+                "order": 2
+            },
+            {
+                "id": "p28",
+                "name": "Gary Sinise",
+                "role": "Lieutenant Dan Taylor",
+                "order": 3
+            }
         ],
         "keywords": [
             "historical",
@@ -184,7 +368,13 @@
             "destiny",
             "love",
             "americana"
-        ]
+        ],
+        "studio": {
+            "id": "s2",
+            "name": "Paramount Pictures",
+            "country": "USA",
+            "founded_year": 1912
+        }
     },
     {
         "id": "m8",
@@ -198,11 +388,30 @@
             "Crime",
             "Drama"
         ],
-        "director": "Francis Ford Coppola",
+        "director": {
+            "id": "p29",
+            "name": "Francis Ford Coppola",
+            "birth_year": 1939
+        },
         "actors": [
-            "Marlon Brando",
-            "Al Pacino",
-            "James Caan"
+            {
+                "id": "p30",
+                "name": "Marlon Brando",
+                "role": "Don Vito Corleone",
+                "order": 1
+            },
+            {
+                "id": "p31",
+                "name": "Al Pacino",
+                "role": "Michael Corleone",
+                "order": 2
+            },
+            {
+                "id": "p32",
+                "name": "James Caan",
+                "role": "Sonny Corleone",
+                "order": 3
+            }
         ],
         "keywords": [
             "mafia",
@@ -210,6 +419,12 @@
             "power",
             "loyalty",
             "crime"
-        ]
+        ],
+        "studio": {
+            "id": "s2",
+            "name": "Paramount Pictures",
+            "country": "USA",
+            "founded_year": 1912
+        }
     }
 ]
