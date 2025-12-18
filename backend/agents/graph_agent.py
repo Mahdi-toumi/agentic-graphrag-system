@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, END
 from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from backend.agents.state import AgentState
 from backend.tools.graph_query_tool import GraphQueryTool
 from backend.tools.search_tool import WebSearchTool
@@ -15,7 +15,7 @@ class MovieAgentSystem:
         # Initialize LLM
         self.llm = ChatGroq(
             groq_api_key=os.getenv("GROQ_API_KEY"),
-            model_name=os.getenv("LLM_MODEL", "llama-3.1-70b-versatile"),
+            model_name=os.getenv("LLM_MODEL", "llama-3.3-70b-versatile"),
             temperature=0.7
         )
         
