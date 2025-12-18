@@ -1,0 +1,215 @@
+[
+    {
+        "id": "m1",
+        "title": "The Matrix",
+        "year": 1999,
+        "rating": 8.7,
+        "budget": 63000000,
+        "revenue": 463517383,
+        "overview": "A computer hacker learns about the true nature of reality and his role in the war against its controllers.",
+        "genres": [
+            "Action",
+            "Science Fiction"
+        ],
+        "director": "The Wachowskis",
+        "actors": [
+            "Keanu Reeves",
+            "Laurence Fishburne",
+            "Carrie-Anne Moss"
+        ],
+        "keywords": [
+            "artificial intelligence",
+            "virtual reality",
+            "dystopia",
+            "chosen one",
+            "simulation"
+        ]
+    },
+    {
+        "id": "m2",
+        "title": "Inception",
+        "year": 2010,
+        "rating": 8.8,
+        "budget": 160000000,
+        "revenue": 829895144,
+        "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.",
+        "genres": [
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "director": "Christopher Nolan",
+        "actors": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Ellen Page",
+            "Tom Hardy"
+        ],
+        "keywords": [
+            "dream",
+            "subconscious",
+            "heist",
+            "reality",
+            "mind bending"
+        ]
+    },
+    {
+        "id": "m3",
+        "title": "The Dark Knight",
+        "year": 2008,
+        "rating": 9.0,
+        "budget": 185000000,
+        "revenue": 1004558444,
+        "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests.",
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "director": "Christopher Nolan",
+        "actors": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart",
+            "Michael Caine"
+        ],
+        "keywords": [
+            "superhero",
+            "vigilante",
+            "chaos",
+            "duality",
+            "gotham"
+        ]
+    },
+    {
+        "id": "m4",
+        "title": "Interstellar",
+        "year": 2014,
+        "rating": 8.6,
+        "budget": 165000000,
+        "revenue": 677471339,
+        "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Science Fiction"
+        ],
+        "director": "Christopher Nolan",
+        "actors": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain",
+            "Michael Caine"
+        ],
+        "keywords": [
+            "space travel",
+            "wormhole",
+            "time dilation",
+            "survival",
+            "love"
+        ]
+    },
+    {
+        "id": "m5",
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "rating": 8.9,
+        "budget": 8000000,
+        "revenue": 213928762,
+        "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "director": "Quentin Tarantino",
+        "actors": [
+            "John Travolta",
+            "Uma Thurman",
+            "Samuel L. Jackson",
+            "Bruce Willis"
+        ],
+        "keywords": [
+            "nonlinear",
+            "crime",
+            "violence",
+            "redemption",
+            "dialogue"
+        ]
+    },
+    {
+        "id": "m6",
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "rating": 9.3,
+        "budget": 25000000,
+        "revenue": 28341469,
+        "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "genres": [
+            "Drama"
+        ],
+        "director": "Frank Darabont",
+        "actors": [
+            "Tim Robbins",
+            "Morgan Freeman"
+        ],
+        "keywords": [
+            "prison",
+            "hope",
+            "friendship",
+            "redemption",
+            "escape"
+        ]
+    },
+    {
+        "id": "m7",
+        "title": "Forrest Gump",
+        "year": 1994,
+        "rating": 8.8,
+        "budget": 55000000,
+        "revenue": 678226465,
+        "overview": "The presidencies of Kennedy and Johnson, the Vietnam War, and other historical events unfold from the perspective of an Alabama man.",
+        "genres": [
+            "Drama",
+            "Romance"
+        ],
+        "director": "Robert Zemeckis",
+        "actors": [
+            "Tom Hanks",
+            "Robin Wright",
+            "Gary Sinise"
+        ],
+        "keywords": [
+            "historical",
+            "innocent",
+            "destiny",
+            "love",
+            "americana"
+        ]
+    },
+    {
+        "id": "m8",
+        "title": "The Godfather",
+        "year": 1972,
+        "rating": 9.2,
+        "budget": 6000000,
+        "revenue": 246120974,
+        "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "director": "Francis Ford Coppola",
+        "actors": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan"
+        ],
+        "keywords": [
+            "mafia",
+            "family",
+            "power",
+            "loyalty",
+            "crime"
+        ]
+    }
+]
