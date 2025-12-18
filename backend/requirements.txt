@@ -1,0 +1,28 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# Agent Framework
+langgraph
+langchain
+langchain-community
+langchain-groq
+
+# Neo4j & Graph
+neo4j
+py2neo
+
+# Vector & Embeddings
+sentence-transformers
+numpy
+faiss-cpu
+
+# HTTP & Async
+httpx
+aiohttp
+
+# Utilities
+python-multipart
+pydantic-settings
