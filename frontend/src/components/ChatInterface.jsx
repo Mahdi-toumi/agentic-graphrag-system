@@ -4,6 +4,7 @@ import { Send, Loader2, Sparkles, User, Bot, Cpu, Clock, Terminal, ChevronRight 
 import { askQuestion } from '../services/api';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
+import ReactMarkdown from 'react-markdown';
 
 function cn(...inputs) {
     return twMerge(clsx(inputs));
@@ -162,7 +163,18 @@ const MessageItem = ({ msg }) => {
                             ? "bg-red-950/30 text-red-200 border border-red-500/20 rounded-tl-none"
                             : "glass-card text-slate-100 rounded-tl-none"
                 )}>
-                    {msg.content}
+                    <div className="prose prose-invert max-w-none text-slate-100">
+                        <ReactMarkdown
+                            components={{
+                                ul: ({ node, ...props }) => <ul className="list-disc ml-5 mt-3 space-y-2" {...props} />,
+                                li: ({ node, ...props }) => <li className="text-[13px] leading-relaxed mb-1" {...props} />,
+                                strong: ({ node, ...props }) => <strong className="text-blue-400 font-bold" {...props} />,
+                                p: ({ node, ...props }) => <p className="mb-3 last:mb-0" {...props} />,
+                            }}
+                        >
+                            {msg.content}
+                        </ReactMarkdown>
+                    </div>
 
                     {!isUser && msg.execution_time && (
                         <div className="mt-4 pt-4 border-t border-white/5 flex items-center gap-4 text-[10px] font-bold text-slate-500 uppercase tracking-widest">

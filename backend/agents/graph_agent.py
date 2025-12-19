@@ -175,9 +175,19 @@ class MovieAgentSystem:
         Tool Results:
         {tool_results}
         
-        Provide a comprehensive, natural answer to the user's query.
-        Use specific information from the context.
-        If recommending movies, explain why they're good matches.
+        Reformulate the gathered information into a natural, high-quality answer.
+        - Use **bold** for movie titles or ratings.
+        - Provide a concise summary (under 2-3 sentences).
+        - **ONLY** include a specific list (Director, Cast, etc.) if the user explicitly asked for those details or if the query is a formal request for movie specifications.
+        - If creating a list, use bullet points (*) on NEW LINES.
+        
+        Example (General Query):
+        The movie **Interstellar** is a sci-fi epic rated **8.6**, following a team of explorers through a wormhole to save humanity.
+        
+        Example (Specific Request):
+        **Interstellar** details:
+        * **Director**: Christopher Nolan
+        * **Cast**: Matthew McConaughey, Anne Hathaway
         """)
         
         tool_results = "\n".join([
