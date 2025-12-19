@@ -49,6 +49,34 @@ npm install
 npm run dev
 ```
 
+## 🐳 Docker Deployment (Recommended)
+
+The easiest way to run the entire system is using Docker Compose.
+
+### 1. Configure Environment
+Create a `.env` file in the root directory (using `env.example` as a template):
+```bash
+cp env.example .env
+# Edit .env with your GROQ_API_KEY
+```
+
+### 2. Start the System
+```bash
+docker-compose up --build
+```
+
+The system will be available at:
+- **Frontend**: http://localhost (Port 80)
+- **Backend API**: http://localhost:8000
+- **Neo4j Browser**: http://localhost:7474 (Credentials: neo4j / MahdiToumi)
+
+### 3. Seed the Database
+Once the system is running, seed the Neo4j database with movie data:
+```bash
+# From the root directory
+docker-compose exec backend python -m backend.scripts.load_data_to_neo4j
+```
+
 ## 🛠️ Usage
 - **Chat**: Ask about plots, ratings, or complex connections (e.g., "What sci-fi movies directed by Nolan have a rating > 8.5?").
 - **Dashboard**: Visualize graph statistics and high-level insights in the Data Hub.
