@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-display: "Space Grotesk", sans-serif;
+}
+
+@layer base {
+    body {
+        @apply bg-[#020203] text-slate-100 antialiased selection:bg-blue-500/30;
+    }
+}
+
+@layer components {
+    .glass-card {
+        @apply bg-white/[0.03] backdrop-blur-2xl border border-white/10;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@keyframes slow-pulse {
+
+    0%,
+    100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+}
+
+.gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400 font-black;
+}
+
+.bg-mesh {
+    @apply fixed inset-0 z-[-1] overflow-hidden bg-[#020203];
+}

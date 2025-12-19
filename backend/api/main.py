@@ -6,7 +6,11 @@ from backend.models.schemas import (
 from backend.agents.graph_agent import MovieAgentSystem
 from backend.graphrag.neo4j_client import Neo4jClient
 import time
+from dotenv import load_dotenv
 import os
+
+# Load environment variables
+load_dotenv(dotenv_path='backend/.env')
 
 # Initialize FastAPI
 app = FastAPI(
@@ -16,9 +20,20 @@ app = FastAPI(
 )
 
 # CORS
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+]
+env_origins = os.getenv("CORS_ORIGINS")
+if env_origins:
+    origins.extend(env_origins.split(","))
+
+print(f"📡 Allowing origins: {origins}")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=os.getenv("CORS_ORIGINS", "http://localhost:5173").split(","),
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
